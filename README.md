@@ -23,6 +23,10 @@ Konfigurasi
       'DataTables' => Yajra\DataTables\Facades\DataTables::class,
     ]
     
+    lalu di cmd ketikkan
+    
+    php artisan vendor:publish
+    
 5. silakan import file inventaris.sql ke database Anda karena sudah tersedia akun superadmin
 6. atau bisa juga dengan memanfaatkan CLI 'php artisan migrate', lalu masuk ke php artisan tinker untuk membuat akun
   dengan role = 'admin' atau 'superadmin'
