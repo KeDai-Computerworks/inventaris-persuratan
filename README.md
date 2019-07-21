@@ -44,6 +44,7 @@ Konfigurasi
   maka akan menghasilkan true
   lalu silakan login
   jika step no.5 dijalankan maka step no. 6 tidak diperlukan, karena Anda dapat menambahkan user setelah login.
-7. lalu buka browser ketik 'localhost:8000' .... silakan login
+7. agar Anda dapat mengakses file yang di upload oleh aplikasi, maka ketikkan di cmd 'php artisan storage:link'
+8. lalu buka browser ketik 'localhost:8000' .... silakan login
 
 note: aplikasi ini menggunakan library jquery online, dibutuhkan koneksi internet saat menjalankan aplikasi ini saat pertama kali.
